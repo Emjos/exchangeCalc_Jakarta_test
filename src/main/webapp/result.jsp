@@ -5,7 +5,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Kalkulator walut</title>
+    <title>Exchange Calculator</title>
 </head>
 <body>
 
@@ -20,7 +20,7 @@
 %>
 
 <h2>
-    <%=String.format("%s%s to %s%s", base.toString(), baseCurrency, result.toString(), targetCurrency)%>
+    <%=String.format("%s%s is %s%s", base.toString(), baseCurrency, result.toString(), targetCurrency)%>
 
 </h2>
 </body>
